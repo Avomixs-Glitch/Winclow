@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://winclow.com">
-    <img src="https://res.cloudinary.com/dj0xpttv9/image/upload/f_auto,q_auto:eco,c_fill,w_1200,h_630/v1783182941/site/winclow-logo.png" alt="Winclow" width="160" />
-  </a>
+    <img src="https://res.cloudinary.com/dj0xpttv9/image/upload/f_auto,q_auto:eco,c_fill,w_1200,h_630/v1783182941/site/winclow-logo.png" alt="Winclow" width="60" />
+  </a
 
   <h1>Winclow</h1>
   <p><strong>Game intelligence for better decisions.</strong></p>
