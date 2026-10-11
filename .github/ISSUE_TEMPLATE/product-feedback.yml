@@ -1,0 +1,45 @@
+name: Product feedback
+description: Share a focused idea or observation about the Winclow experience.
+title: "[Feedback]: "
+labels: ["product-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Winclow. Please do not include account details, personal information, credentials or security-sensitive data.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Where did you experience this?
+      options:
+        - Discovery & catalogue
+        - Price Intelligence
+        - Watchlists & alerts
+        - Profile & collections
+        - CrackAI
+        - Mobile experience
+        - Documentation / showcase
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is the opportunity?
+      description: Describe the player need or the part of the experience that could be clearer.
+      placeholder: As a player, I want to…
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggested direction
+      description: Tell us how you think the experience could improve.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Optional context
+      description: Browser, device, screenshots with personal information removed, or similar products.
